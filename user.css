@@ -1,0 +1,42 @@
+.user-container  {
+    display: grid;
+    grid:- template-columns: repeat(auto-fill, 250px);
+    gap: 20px;
+    padding: 20px;
+}
+
+.user-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px ;
+}
+
+.pagination-container button {
+    background: #222;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
